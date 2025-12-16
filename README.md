@@ -18,7 +18,7 @@ This project implements a Retrieval-Augmented Generation (RAG) pipeline to solve
 
 A dataset of Korean Criminal Law questions (`Criminal-Law-test.csv`) is used, consisting of:
 
-* **Source**: Legal examination questions.
+* **Source**: Legal examination questions. (Dataset: [KMMLU](https://huggingface.co/datasets/HAERAE-HUB/KMMLU/tree/main))
 * **Size**: 200 test samples.
 * **Preprocessing**:
   * The retrieval index was built using `Criminal-Law-train.csv`.
